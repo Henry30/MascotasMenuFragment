@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.henrymeza.mascotasmenufragment.fragment.FotosFragment">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/civPerfil"
+        android:layout_width="@dimen/width_imagenFotos"
+        android:layout_height="@dimen/height_imagenFotos"
+        android:src="@drawable/imgperro5"
+        app:civ_shadow_radius="10"
+        app:civ_shadow="true"
+        app:civ_border_width="4dp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:id="@+id/tvnombreFM"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/nombre"
+        android:textSize="@dimen/tamanio_textoTitulo"
+        android:layout_gravity="center"
+        />
+<View
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:background="@color/colorPrimaryDark"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    ></View>
+</LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvFotosMascota"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+
+        >
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
