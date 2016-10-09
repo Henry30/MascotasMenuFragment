@@ -4,10 +4,10 @@ Uso de Fragment en Android
 Pantalla Inicial
 ![Alt text](https://cloud.githubusercontent.com/assets/17391733/19218256/e78869fa-8dba-11e6-92b9-98f36c06ff30.png)
 
-Pantalla con Seleccionando Menu
+Pantalla Selección de Menu
 ![Alt text](https://cloud.githubusercontent.com/assets/17391733/19218268/f5d25bba-8dba-11e6-97df-1027acc5578e.png)
 
-Pantalla Contacto
+Pantalla de Contacto
 ![Alt text](https://cloud.githubusercontent.com/assets/17391733/19218276/0795b356-8dbb-11e6-9405-4be9d4531001.png)
 
 Pantalla Acerca de
